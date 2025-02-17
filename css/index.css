@@ -22,11 +22,23 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 300px;
+    width: 500px;
+}
+.nav > .navbar-wrapper > .nav-items > div{
+    width: 100px;
+    text-align: center;
 }
 .nav > .navbar-wrapper > .nav-items > div > a{
     color: #f5f5f5;
     text-decoration: none;
+    transition: 0.5s;
+    
+}
+
+.nav > .navbar-wrapper > .nav-items > div > a:hover{
+    letter-spacing: 2px;
+    color: #cea135;
+    
 }
 .footer-wrapper{
     /* position: fixed; */
@@ -86,16 +98,89 @@ body{
     text-decoration: underline;
 }
 
-.hero-image{
-    background-image: url(/images/heroglass.jpg);
+.hero-banner{
+    background-image: url(/images/backgrounds/salad.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 500px;
-    object-fit: contain;
+    background-position: center;
     background-size: cover;
-    margin-bottom: 10px;
+    height: 500px;    
 }
-.hero-image > .hero-text {
+.chefs-div{
     display: flex;
     justify-content: center;
     align-items: center;
-}  
+    margin: 40px;
+    
+}
+.chefs{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.chefs > .chefs-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;  
+    margin-right: 40px;  
+    
+}
+
+.chefs > .chefs-images > .chefs-img1 > img{
+    width: 200px;
+    
+}
+.chefs > .chefs-images > .chefs-img2 > img{
+    width: 200px;
+
+}
+.chefs > .chefs-text > p{
+    line-height: 25px;
+}
+
+.reservation{
+    background-image: url(/images/reservation.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation > .reservation-message{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    letter-spacing: 2px;
+}
+.reservation > .reservation-message > button {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: none;
+    transition: 0.5s;
+}
+
+.reservation > .reservation-message > button:hover{
+    cursor: pointer;
+    background-color: #cea135;
+    color: #f5f5f5;
+}
+
+.offers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offers > .our-offers{
+    display: flex;
+    flex-direction: column;
+}
+.offers > .our-offers > .offer > .offer-img > img{
+    width: 500px;
+}
