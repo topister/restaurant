@@ -27,6 +27,7 @@ body{
 .nav > .navbar-wrapper > .nav-items > div{
     width: 100px;
     text-align: center;
+    width: 300px;
 }
 .nav > .navbar-wrapper > .nav-items > div > a{
     color: #f5f5f5;
@@ -184,3 +185,16 @@ body{
 .offers > .our-offers > .offer > .offer-img > img{
     width: 500px;
 }
+.hero-image{
+    background-image: url(/images/heroglass.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    object-fit: contain;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.hero-image > .hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
