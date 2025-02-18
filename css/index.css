@@ -17,6 +17,8 @@ body{
     height: 100px;
     background-image: url(/images/navimage.jpg);
 
+    
+
 }
 .nav > .navbar-wrapper > .nav-items{
     display: flex;
