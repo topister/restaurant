@@ -181,9 +181,50 @@ body{
 .offers > .our-offers{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+   
+    
+}
+.offers > .our-offers .offer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+.offers > .our-offers .offer > .offer-image{
+    width: 600px;
+    height: 450px;
+}
+.offers > .our-offers .offer > .offer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.offers > .our-offers .offer > .offer-content > h4{
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.offers > .our-offers .offer > .offer-content > p{
+    font-size: 19px;
+    letter-spacing: 0.5px;
+}
+.offers > .our-offers .offer > .offer-content > .reserve-btn{
+    background-color: #cea135;
+    padding: 10px 20px;
+    border: none;
+    color: #f5f5f5;
+}
+.offers > .our-offers .offer > .offer-content > .reserve-btn:hover{
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
 }
 .offers > .our-offers > .offer > .offer-img > img{
-    width: 500px;
+    width: 600px;
+    height: 450px;
 }
 .hero-image{
     background-image: url(/images/heroglass.jpg);
